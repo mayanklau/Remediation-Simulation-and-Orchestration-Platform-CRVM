@@ -34,7 +34,7 @@ The result is duplicated tickets, delayed fixes, risky production changes, weak 
 - Map findings to assets and business context.
 - Connect app posture, asset exposure, and cyber-risk economics to remediation action prioritization.
 - Construct graph-native scanner-normalized vulnerability chains and attack paths.
-- Add advanced cyber-risk intelligence for exploit fusion, business-service impact, attack-path confidence, exposure management, change-risk modeling, remediation strategy selection, control-effectiveness validation, threat-informed prioritization, crown-jewel governance, exception governance, campaign intelligence, continuous validation, scanner trust scoring, playbook marketplace, risk economics, and executive narratives.
+- Add advanced cyber-risk intelligence for exploit fusion, business-service impact, attack-path confidence, exposure management, adversary scenario simulation, risk appetite, control coverage, toxic-combination detection, kill-chain staging, regulatory mapping, security debt, dynamic SLAs, change-risk modeling, remediation strategy selection, control-effectiveness validation, threat-informed prioritization, crown-jewel governance, exception governance, campaign intelligence, continuous validation, scanner trust scoring, playbook marketplace, risk economics, and executive narratives.
 - Prioritize by technical and business risk.
 - Score attack-path difficulty and before/after remediation risk.
 - Simulate remediation before change.
