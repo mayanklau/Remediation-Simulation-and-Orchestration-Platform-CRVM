@@ -30,7 +30,11 @@ def test_route_permission_contract_covers_enterprise_surfaces():
     assert route_permission_for("/api/attack-paths", "POST") == "report:read"
     assert route_permission_for("/api/crvm", "GET") == "report:read"
     assert route_permission_for("/api/crvm/snapshot", "POST") == "report:read"
+    assert route_permission_for("/api/connectors", "GET") == "connector:read"
+    assert route_permission_for("/api/connectors", "POST") == "connector:run"
     assert route_permission_for("/api/connectors/live", "POST") == "connector:run"
+    assert route_permission_for("/api/integrations", "GET") == "connector:read"
+    assert route_permission_for("/api/integrations", "POST") == "connector:run"
     assert route_permission_for("/api/audit", "GET") == "audit:read"
 
 
