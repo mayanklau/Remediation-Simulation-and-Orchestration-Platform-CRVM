@@ -57,6 +57,7 @@ EY CRVM Remediation Twin creates a governed operating layer for:
 - React UI for dashboard, findings, assets, remediation, virtual patching, agentic planning, policies, reports, audit, and operations, with React Flow graph-library canvases for pan, zoom, minimap, risk filtering, export, drill-down, empty states, and error-safe API loading.
 - CRVM workbench for app posture, vulnerability discovery score, CIA/environment scoring, CRQ/ROSI/RAROC economics, exposure intelligence, compromisability, and discovery-to-remediation loop closure.
 - Once-and-for-all enterprise readiness catalog covering identity, tenancy, secrets, connectors, ingestion, vulnerability analytics, simulation, orchestration, AI governance, evidence, reporting, platform architecture, security, observability, testing, DevOps, product experience, CRVM posture, and commercial packaging.
+- Production expansion layer for admin onboarding, connector marketplace, data quality, attack-path validation, remediation economics, control drift, post-remediation validation, policy builder, plugin SDK, deployment hardening, security review, executive narratives, demo separation, E2E coverage, CRVM posture, and data residency.
 - Docker Compose for local MongoDB, API, and web runtime.
 - CI/CD quality gates for Python compile, pytest, frontend build, dependency scans, Mongo index manifest checks, Docker builds, and container scans.
 
@@ -106,7 +107,8 @@ EY CRVM Remediation Twin creates a governed operating layer for:
 12. Agentic planning creates a governed tool plan with dry-run defaults.
 13. Manual connector profiles onboard arbitrary third-party systems and run dry-run checks before live execution.
 14. Enterprise readiness maps every required control to implemented, contract-ready, or external-setup-required status.
-15. Reports and audit logs preserve decision history.
+15. Production expansion tracks the remaining enterprise product modules with APIs, workflows, evidence, gates, and owners.
+16. Reports and audit logs preserve decision history.
 
 ## Attack Path Analytics
 
@@ -190,6 +192,7 @@ Agentic safety rules:
 | POST | `/api/workers/run` | Record worker dry-run |
 | GET | `/api/observability` | Runtime observability summary |
 | GET | `/api/enterprise-readiness` | Once-and-for-all enterprise control catalog |
+| GET | `/api/production-expansion` | Production expansion modules and readiness gates |
 
 ## Quick Start
 
